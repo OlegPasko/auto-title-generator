@@ -23,7 +23,7 @@
                     break;
             }
 
-            const response = await fetch('/wp/wp-json/atg/v1/generate_title', {
+            const response = await fetch('/wp-json/atg/v1/generate_title', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
